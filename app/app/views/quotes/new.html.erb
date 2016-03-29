@@ -2,18 +2,20 @@
 <%= form_for :quotes, url: quotes_path  do |f| %>
 	<p>
 		<%= f.label :quote %><br>
-		<%= f.text_field :quote %>
+		<%= f.text_area :quote %>
 	</p>
 	<p>
 		<%= f.label :author %><br>
-		<%= f.text_area :author %>
+		<%= f.text_field :author %>
 	</p>
 	<p>
 		<%= f.label :date %><br>
-		<%= f.text_area :date %>
+		<%= f.text_field :date %>
 	</p>
 
 	<p>
 		<%= f.submit %>
 	</p>
 <% end %>
+
+<%= link_to 'Back', quotes_path %>

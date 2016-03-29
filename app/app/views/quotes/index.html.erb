@@ -1,0 +1,15 @@
+<%= link_to 'New Quote', new_quote_path %>
+<table>
+	<tr>
+		<th>Quote</th>
+		<th>Author</th>
+		<th>Date Displayed</th>
+	</tr>
+	<% @quotes.each do |quote| %>
+		<tr>
+			<td><%= quote.quote %></td>
+			<td><%= quote.author %></td>
+			<td><%= quote.date %></td>
+		</tr>
+	<% end %>
+</table>
