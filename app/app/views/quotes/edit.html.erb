@@ -1,40 +1,5 @@
 <h1>Edit Quote</h1>
 
-<%= form_for :quote, url: quote_patch(@quote), method: :patch do |f\ %>
+<%= render 'form' %>
 
-	<% if @quote.errors.any? %>
-		<div id="error_explanation">
-			<h2>
-				<%= pluralize(@quote.errors.count, "error") %>
-			prohibited
-				this article from being saved:
-			</h2>
-			<ul>
-				<% @article.errors.full_messages.each do |msg| %>
-				<li><%= msg %></li>
-			</ul>
-		</div>
-	<% end %>
-
-	<p>
-	<%= f.label :quote %>
-	<%= f.text_area :quote %>
-	</p>
-
-	<p>
-	<%= f.label :author %>
-	<%= f.text_field :author %>
-	</p>
-
-	<p>
-	<%= f.label :date %>
-	<%= f.text_field :date %>
-	</p>
-
-	<p>
-		<%= f.submit %>
-	</p>
-
-	<% end %>
-
-	<%= link to 'Back', quotes_path %>
+<%= link to 'Back', quotes_path %>
