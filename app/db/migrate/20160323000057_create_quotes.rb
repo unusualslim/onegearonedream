@@ -1,7 +1,7 @@
 class CreateQuotes < ActiveRecord::Migration
   def change
     create_table :quotes do |t|
-      t.string :quote
+      t.string :content
       t.string :author
       t.date :date
 

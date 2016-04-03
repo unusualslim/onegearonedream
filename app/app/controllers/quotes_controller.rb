@@ -16,7 +16,7 @@ class QuotesController < ApplicationController
 	end
 
 	def create
-		@quote = Quote.new(params[:quote])
+		@quote = Quote.new(quote_params)
 	
 		if @quote.save
 			redirect_to @quote
@@ -24,4 +24,10 @@ class QuotesController < ApplicationController
 			render 'new'
 		end
 	end
+	
+	private
+		def quote_params
+			params.require(:quotes).permit(:content, :author, :date)
+		end
+
 end

@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20160323000057) do
 
   create_table "quotes", force: :cascade do |t|
-    t.string   "quote",      limit: 255
+    t.string   "content",    limit: 255
     t.string   "author",     limit: 255
     t.date     "date"
     t.datetime "created_at",             null: false
