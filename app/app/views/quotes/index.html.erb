@@ -3,13 +3,13 @@
 	<tr>
 		<th>Quote</th>
 		<th>Author</th>
-		<th>Date Displayed</th>
+		<th>Day Displayed</th>
 	</tr>
 	<% @quotes.each do |quote| %>
 		<tr>
 			<td><%= quote.context %></td>
 			<td><%= quote.author %></td>
-			<td><%= quote.date %></td>
+			<td><%= quote.day %></td>
 			<td><%= link_to 'Show', quote_path(quote) %></td>
 			<td><%= link_to 'Edit', edit_quote_path(quote) %></td>
 			<td><%= link_to 'Destroy', quote_path(quote),
@@ -18,3 +18,5 @@
 		</tr>
 	<% end %>
 </table>
+
+

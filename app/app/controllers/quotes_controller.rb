@@ -4,7 +4,7 @@ class QuotesController < ApplicationController
 	end
 
 	def show
-		@quote = Quotes.find(params[:id])
+		@quote = Quote.find(params[:id])
 	end
 
 	def new
@@ -36,7 +36,7 @@ class QuotesController < ApplicationController
 	end
 	
 	def destroy
-		@quote = Quote.find(params [:id])
+		@quote = Quote.find(params[:id])
 		@quote.destroy
 		
 		redirect_to quotes_path
@@ -44,7 +44,7 @@ class QuotesController < ApplicationController
 	
 	private
 		def quote_params
-			params.require(:quotes).permit(:content, :author, :date)
+			params.require(:quote).permit(:context, :author, :day)
 		end
 
 end
