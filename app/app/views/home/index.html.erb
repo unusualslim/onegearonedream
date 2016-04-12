@@ -9,6 +9,13 @@
  	 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
  	 <![endif]-->
 	<link rel="stylesheet" type="text/css" href="">
+	<%=
+	time = Time.new
+  	time = time.strftime("%Y-%m-%d")
+  	
+  	quote = Quote.new
+  	quote = Quote.find_by day: time
+	%>
 </head>
 
 
