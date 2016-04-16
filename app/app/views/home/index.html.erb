@@ -18,14 +18,16 @@
 <body>
 
 	<main class="container-fluid bg-1 text-left">
-	<%= @quote.find_by_day do |quote| %>
+	<%= time = Time.new
+  		time = time.strftime("%Y-%m-%d")
+  	
+  		@quote = Quote.find_by day: time %>
 	<h1>
 		<strong><%= @quote.context %></strong>
 	</h1>
-<	h2>
+	<h2>
 		<strong><%= @quote.author %></strong>
 	</h2>
-	<% end %>
 	</main>
 <!--	
 	<footer>
