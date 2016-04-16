@@ -2153,3 +2153,1563 @@ Processing by QuotesController#index as HTML
   [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
   Rendered quotes/index.html.erb within layouts/application (1.2ms)
 Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 64.134.97.232 at 2016-04-10 09:54:18 +0000
+Cannot render console from 64.134.97.232! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 160ms (Views: 151.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes" for 64.134.97.232 at 2016-04-10 09:54:22 +0000
+Cannot render console from 64.134.97.232! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes" for 64.134.97.232 at 2016-04-10 09:54:31 +0000
+Cannot render console from 64.134.97.232! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 64.134.97.232 at 2016-04-10 09:54:34 +0000
+Cannot render console from 64.134.97.232! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 70.192.132.160 at 2016-04-10 10:43:04 +0000
+Cannot render console from 70.192.132.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 70.192.148.240 at 2016-04-10 11:16:43 +0000
+Cannot render console from 70.192.148.240! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 70.193.167.212 at 2016-04-10 14:08:35 +0000
+Cannot render console from 70.193.167.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-10 22:03:48 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 74.127.116.183 at 2016-04-10 22:03:48 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 74.127.116.183 at 2016-04-10 22:03:48 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-10 22:03:54 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes/new" for 74.127.116.183 at 2016-04-10 22:04:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+Filter chain halted as #<Proc:0x007f0f498fb358@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 74.127.116.183 at 2016-04-10 22:04:09 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (12.8ms)
+  Rendered quotes/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-10 22:09:48 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-10 22:09:52 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 198.20.70.114 at 2016-04-11 04:57:34 +0000
+Cannot render console from 198.20.70.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sitemap.xml" for 198.20.70.114 at 2016-04-11 04:57:34 +0000
+Cannot render console from 198.20.70.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/sitemap.xml"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-11 15:13:27 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-11 15:13:30 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 01:07:27 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-12 01:07:37 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes/new" for 74.127.116.183 at 2016-04-12 01:08:51 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+Filter chain halted as #<Proc:0x007f0f498fb358@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 74.127.116.183 at 2016-04-12 01:09:08 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.3ms)
+  Rendered quotes/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 02:08:46 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (1.7ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.3ms)
+
+ActionView::Template::Error (undefined local variable or method `quote' for #<#<Class:0x007f0f4a1b2d70>:0x007f0f4a1b2370>):
+    19: 	
+    20: 	<main>
+    21: 		<p>
+    22: 			<%= quote.context %>
+    23: 		</p>
+    24: 		<p>
+    25: 			<%= quote.author %>
+  app/views/home/index.html.erb:22:in `_app_views_home_index_html_erb___2477094469887993768_69851822262460'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-12 02:10:17 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 02:14:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 74.127.116.183 at 2016-04-12 02:21:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 74.127.116.183 at 2016-04-12 02:26:00 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-12 02:26:04 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes/2/edit" for 74.127.116.183 at 2016-04-12 02:26:16 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 2 LIMIT 1
+  Rendered quotes/_form.html.erb (2.6ms)
+  Rendered quotes/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/quotes/2" for 74.127.116.183 at 2016-04-12 02:26:21 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M4jLgjcEJt8C9qRijq3SilS5urrzykMC5/5qUlUvOQaCzl1KP/WFINYwJR3qTGd8GkMgTOX9IYm0rj6zH2IDhg==", "quote"=>{"context"=>"There is no passion to be found playing small in settling for a life that is less than the one you are capable of living.", "author"=>"Nelson Mandela", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"13"}, "commit"=>"Update Quote", "id"=>"2"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `quotes` SET `day` = '2016-04-13', `updated_at` = '2016-04-12 02:26:21' WHERE `quotes`.`id` = 2[0m
+  [1m[35m (3.0ms)[0m  COMMIT
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/2
+Completed 302 Found in 7ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/quotes/2" for 74.127.116.183 at 2016-04-12 02:26:21 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 2 LIMIT 1[0m
+  Rendered quotes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-12 02:26:24 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/3/edit" for 74.127.116.183 at 2016-04-12 02:26:27 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 3 LIMIT 1[0m
+  Rendered quotes/_form.html.erb (2.2ms)
+  Rendered quotes/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/quotes/3" for 74.127.116.183 at 2016-04-12 02:26:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aUEFmQsxXK8A4EaDF/OiLmmxVWzqbtAUcQl1/KAa5bjYB5NRA8D/UNQmx/xzEhfYJ0vPmvxZsp8iWSEd6lffOA==", "quote"=>{"context"=>"Just do it!", "author"=>"Shia Lebouf", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"14"}, "commit"=>"Update Quote", "id"=>"3"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `quotes` SET `day` = '2016-04-14', `updated_at` = '2016-04-12 02:26:32' WHERE `quotes`.`id` = 3
+  [1m[36m (14.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/3
+Completed 302 Found in 17ms (ActiveRecord: 14.9ms)
+
+
+Started GET "/quotes/3" for 74.127.116.183 at 2016-04-12 02:26:32 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 3 LIMIT 1
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 74.127.116.183 at 2016-04-12 02:26:37 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 02:27:07 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-12 11:36:01 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 74.127.116.183 at 2016-04-12 11:36:02 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-12 12:36:26 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-12 12:36:38 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-12 12:36:45 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-12 12:39:08 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes/new" for 173.19.39.65 at 2016-04-12 12:39:14 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.0ms)
+  Rendered quotes/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-12 12:39:42 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QsoA6enVhbBP0+ym5W2UjqAgHeiK28xOgzHYoPgmTVTzjJYh4SQmT5sVbdmBjCF47tqHHpzsrsXQYYxBsmt31A==", "quote"=>{"context"=>"Today is a good day for a good day.", "author"=>"Joyce Perry", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"15"}, "commit"=>"Create Quote"}
+Filter chain halted as #<Proc:0x007f0f4a490b78@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-12 12:39:42 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QsoA6enVhbBP0+ym5W2UjqAgHeiK28xOgzHYoPgmTVTzjJYh4SQmT5sVbdmBjCF47tqHHpzsrsXQYYxBsmt31A==", "quote"=>{"context"=>"Today is a good day for a good day.", "author"=>"Joyce Perry", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"15"}, "commit"=>"Create Quote"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `quotes` (`context`, `author`, `day`, `created_at`, `updated_at`) VALUES ('Today is a good day for a good day.', 'Joyce Perry', '2016-04-15', '2016-04-12 12:39:42', '2016-04-12 12:39:42')[0m
+  [1m[35m (2.3ms)[0m  COMMIT
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/5
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/quotes/5" for 173.19.39.65 at 2016-04-12 12:39:42 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 5 LIMIT 1[0m
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-12 12:39:46 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-12 12:39:56 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-12 12:45:21 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 70.193.67.174 at 2016-04-12 13:01:12 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 70.193.67.174 at 2016-04-12 13:01:13 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/apple-touch-icon-120x120-precomposed.png" for 70.193.67.174 at 2016-04-12 13:02:14 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-120x120-precomposed.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.9ms)
+
+
+Started GET "/apple-touch-icon-120x120.png" for 70.193.67.174 at 2016-04-12 13:02:14 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-120x120.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/apple-touch-icon.png" for 70.193.67.174 at 2016-04-12 13:02:15 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.6ms)
+
+
+Started GET "/apple-touch-icon.png" for 70.193.67.174 at 2016-04-12 13:02:15 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/" for 162.225.163.16 at 2016-04-12 13:18:20 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 162.225.163.16 at 2016-04-12 13:18:20 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 162.225.163.16 at 2016-04-12 13:18:21 +0000
+Cannot render console from 162.225.163.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 70.193.67.174 at 2016-04-12 14:23:05 +0000
+Cannot render console from 70.193.67.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 173.19.39.65 at 2016-04-12 15:59:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.19.39.65 at 2016-04-12 15:59:55 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.19.39.65 at 2016-04-12 15:59:55 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 173.19.39.65 at 2016-04-12 15:59:55 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 70.193.107.0 at 2016-04-12 16:22:21 +0000
+Cannot render console from 70.193.107.0! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-12' LIMIT 1[0m  [["day", "2016-04-12"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.16.156.155 at 2016-04-13 01:47:02 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 173.16.156.155 at 2016-04-13 01:47:03 +0000
+Cannot render console from 173.16.156.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-13 11:49:30 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-13 13:14:04 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-13 13:14:53 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes/new" for 173.19.39.65 at 2016-04-13 13:14:59 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.3ms)
+  Rendered quotes/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-13 13:18:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bkSnPJYNLe5oyZtSTw3r0Mn4Fw35iOfdWTBdY76IpWffAjH0nvyOEbwPGi0r7F4mhwKN+++/hVYKYAmC9MWf5w==", "quote"=>{"context"=>"The winner is part of the answer\r\nThe loser is part of the problem\r\nThe winner always has a program\r\nThe loser always has an excuse\r\nThe winner says let me do it for you\r\nThe loser says that's not my job\r\nThe winner sees an answer for every problem\r\nThe loser sees a problem with every answer\r\nThe winner says it may be difficult but it's possible\r\nThe loser says it's possible but too difficult. ", "author"=>"Unknown", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"16"}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `quotes` (`context`, `author`, `day`, `created_at`, `updated_at`) VALUES ('The winner is part of the answer\r\nThe loser is part of the problem\r\nThe winner always has a program\r\nThe loser always has an excuse\r\nThe winner says let me do it for you\r\nThe loser says that\'s not my job\r\nThe winner sees an answer for every problem\r\nThe loser sees a problem with every answer\r\nThe winner says it may be difficult but it\'s possible\r\nThe loser says it\'s possible but too difficult. ', 'Unknown', '2016-04-16', '2016-04-13 13:18:54', '2016-04-13 13:18:54')
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/6
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/quotes/6" for 173.19.39.65 at 2016-04-13 13:18:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 6 LIMIT 1
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-13 13:20:14 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 173.19.39.65 at 2016-04-13 13:21:34 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.1ms)
+  Rendered quotes/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-13 13:22:18 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RLQR5n3TsL3sdERWfFLPpR4sdslrZqSpJbkf2MaS/lX18ocudSITQjiyxSkYs3pTUNbsP31RxiJ26Us5jN/E1Q==", "quote"=>{"context"=>"A gem cannot be polished without friction, nor man perfected without trials", "author"=>"Unknown", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"17"}, "commit"=>"Create Quote"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `quotes` (`context`, `author`, `day`, `created_at`, `updated_at`) VALUES ('A gem cannot be polished without friction, nor man perfected without trials', 'Unknown', '2016-04-17', '2016-04-13 13:22:18', '2016-04-13 13:22:18')[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/7
+Completed 302 Found in 4ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/quotes/7" for 173.19.39.65 at 2016-04-13 13:22:18 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 7 LIMIT 1[0m
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-13 13:22:20 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 173.19.39.65 at 2016-04-13 13:23:05 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.3ms)
+  Rendered quotes/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-13 13:24:39 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/jJ4Vin5vUpF635Wn+5W+T2Kp/578VHms6UAQQkMvjlPdO6eIQgetZEt/yn7D+MPc3A9CG3GM23g9VSgQ0GEuQ==", "quote"=>{"context"=>"F.E.A.R. has two meaning:\r\nForget Everything and Run Or\r\nFace everything and Rise\r\n\r\nThe Choice is yours.", "author"=>"Unknown", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"18"}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `quotes` (`context`, `author`, `day`, `created_at`, `updated_at`) VALUES ('F.E.A.R. has two meaning:\r\nForget Everything and Run Or\r\nFace everything and Rise\r\n\r\nThe Choice is yours.', 'Unknown', '2016-04-18', '2016-04-13 13:24:39', '2016-04-13 13:24:39')
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/8
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/quotes/8" for 173.19.39.65 at 2016-04-13 13:24:40 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 8 LIMIT 1
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-13 13:25:33 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 173.19.39.65 at 2016-04-13 13:25:36 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.1ms)
+  Rendered quotes/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-13 13:26:32 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zSwrbKsPrxWjhhCcur5Rp8re89LcCvPlwwBssH7bngl8ar2ko/4M6ndAkePeX+RRhCRpJMo9kW6QUDhRNJakiQ==", "quote"=>{"context"=>"We're all manufacturers. We're either making good, making trouble, or making excuses.", "author"=>"Ben McGrail", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"19"}, "commit"=>"Create Quote"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `quotes` (`context`, `author`, `day`, `created_at`, `updated_at`) VALUES ('We\'re all manufacturers. We\'re either making good, making trouble, or making excuses.', 'Ben McGrail', '2016-04-19', '2016-04-13 13:26:32', '2016-04-13 13:26:32')[0m
+  [1m[35m (14.0ms)[0m  COMMIT
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/9
+Completed 302 Found in 16ms (ActiveRecord: 14.3ms)
+
+
+Started GET "/quotes/9" for 173.19.39.65 at 2016-04-13 13:26:32 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 9 LIMIT 1[0m
+  Rendered quotes/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-13 13:26:34 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 173.19.39.65 at 2016-04-13 13:28:28 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendered quotes/_form.html.erb (2.0ms)
+  Rendered quotes/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 173.19.39.65 at 2016-04-13 13:29:06 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"197UzbejOACzjHXyfodLzMW7Md47vo86Bqs1bi23NzBmmEIFv1Kb/2dK9I0aZv46i0GrKC2J7bFV+2GPZ/oNsA==", "quote"=>{"context"=>"Every dog has it's day. Your a fucking lion.", "author"=>"Unusualslim", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"20"}, "commit"=>"Create Quote"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `quotes` (`context`, `author`, `day`, `created_at`, `updated_at`) VALUES ('Every dog has it\'s day. Your a fucking lion.', 'Unusualslim', '2016-04-20', '2016-04-13 13:29:06', '2016-04-13 13:29:06')
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/10
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/quotes/10" for 173.19.39.65 at 2016-04-13 13:29:06 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 10 LIMIT 1
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-13 13:29:11 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-13 17:30:02 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (7.4ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 45.7ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/" for 70.193.101.254 at 2016-04-13 20:05:02 +0000
+Cannot render console from 70.193.101.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 70.193.101.254 at 2016-04-13 20:05:03 +0000
+Cannot render console from 70.193.101.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 70.193.101.254 at 2016-04-13 20:05:03 +0000
+Cannot render console from 70.193.101.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 70.193.101.254 at 2016-04-13 20:05:03 +0000
+Cannot render console from 70.193.101.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-13 20:22:52 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 74.127.116.183 at 2016-04-13 20:22:53 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 70.193.101.254 at 2016-04-13 20:53:29 +0000
+Cannot render console from 70.193.101.254! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-13 21:44:31 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-13' LIMIT 1[0m  [["day", "2016-04-13"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 70.193.68.185 at 2016-04-14 00:56:30 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1[0m  [["day", "2016-04-14"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 70.193.68.185 at 2016-04-14 00:56:31 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 70.193.68.185 at 2016-04-14 14:19:22 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1[0m  [["day", "2016-04-14"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 70.193.68.185 at 2016-04-14 14:19:23 +0000
+Cannot render console from 70.193.68.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-14 14:19:46 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1[0m  [["day", "2016-04-14"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-14 14:19:54 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1  [["day", "2016-04-14"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 173.19.39.65 at 2016-04-14 16:49:48 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 173.19.39.65 at 2016-04-14 16:49:49 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 173.19.39.65 at 2016-04-14 16:49:49 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 173.19.39.65 at 2016-04-14 16:49:49 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-14 16:52:23 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1  [["day", "2016-04-14"]]
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 173.19.39.65 at 2016-04-14 16:52:23 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-14 16:52:29 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes/10/edit" for 173.19.39.65 at 2016-04-14 16:53:26 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"10"}
+Filter chain halted as #<Proc:0x007f0f4a490b78@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/10/edit" for 173.19.39.65 at 2016-04-14 16:53:37 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"10"}
+Filter chain halted as #<Proc:0x007f0f4a490b78@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/10/edit" for 173.19.39.65 at 2016-04-14 16:53:50 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 10 LIMIT 1
+  Rendered quotes/_form.html.erb (2.1ms)
+  Rendered quotes/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/quotes/10" for 173.19.39.65 at 2016-04-14 16:54:04 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B745YpBnM6MscA506LMyShB79qTlVn2dMnoDQsN3lC4BgdiaV/vs0uxtlIHBxf2mZX47NRkeVZhzSJVeQNRubg==", "quote"=>{"context"=>"Every dog has it's day. Your a lion.", "author"=>"Unusualslim", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"20"}, "commit"=>"Update Quote", "id"=>"10"}
+Filter chain halted as #<Proc:0x007f0f4a490b78@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started PATCH "/quotes/10" for 173.19.39.65 at 2016-04-14 16:54:05 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B745YpBnM6MscA506LMyShB79qTlVn2dMnoDQsN3lC4BgdiaV/vs0uxtlIHBxf2mZX47NRkeVZhzSJVeQNRubg==", "quote"=>{"context"=>"Every dog has it's day. Your a lion.", "author"=>"Unusualslim", "day(1i)"=>"2016", "day(2i)"=>"4", "day(3i)"=>"20"}, "commit"=>"Update Quote", "id"=>"10"}
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 10 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `quotes` SET `context` = 'Every dog has it\'s day. Your a lion.', `updated_at` = '2016-04-14 16:54:05' WHERE `quotes`.`id` = 10[0m
+  [1m[35m (10.1ms)[0m  COMMIT
+Redirected to http://ec2-54-200-218-114.us-west-2.compute.amazonaws.com:3000/quotes/10
+Completed 302 Found in 13ms (ActiveRecord: 10.5ms)
+
+
+Started GET "/quotes/10" for 173.19.39.65 at 2016-04-14 16:54:05 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 10 LIMIT 1[0m
+  Rendered quotes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 173.19.39.65 at 2016-04-14 16:54:09 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-14 20:14:21 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-14' LIMIT 1  [["day", "2016-04-14"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 72.29.38.82 at 2016-04-15 02:02:04 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1  [["day", "2016-04-15"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 72.29.38.82 at 2016-04-15 02:02:05 +0000
+Cannot render console from 72.29.38.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 74.127.116.183 at 2016-04-15 10:52:46 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1  [["day", "2016-04-15"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-0543ce61ea99191d1c2e2d6a3d6ea4830c5e8cd029d1c00f521e418f6fa6ecf2.css?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-3c4724a19ff50f1e096c1604084702f3159e345dad47014cee73d63126cc2348.css?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 74.127.116.183 at 2016-04-15 10:52:47 +0000
+Cannot render console from 74.127.116.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 173.19.39.65 at 2016-04-15 13:59:25 +0000
+Cannot render console from 173.19.39.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1  [["day", "2016-04-15"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms)
