@@ -18,16 +18,14 @@
 <body>
 
 	<main class="container-fluid bg-1 text-left">
-	<%= @quotes.each do |quote| %>
-		<h1>
-			<%= quote.context %>
-		</h1>
-		<h2>
-			<br />
-			<%= quote.author %>
-			<br />
-		</h2>
-	<% end %>
+	<%= @quote.find_by_day do |quote| %>
+	<h1>
+		<strong><%= @quote.context %></strong>
+	</h1>
+<	h2>
+		<strong><%= @quote.author %></strong>
+	</h2>
+	
 	</main>
 <!--	
 	<footer>
