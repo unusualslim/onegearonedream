@@ -11,13 +11,7 @@
  	 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
  	 <![endif]-->
 	<%= stylesheet_link_tag "application" %>>
-	<%=
-	time = Time.new
-  	time = time.strftime("%Y-%m-%d")
-  	
-  	quote = Quote.new
-  	quote = Quote.find_by day: time
-	%>
+
 </head>
 
 

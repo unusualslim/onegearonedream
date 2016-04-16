@@ -1,7 +1,0 @@
-class HomeController < ApplicationController
-  def index
-  end
-
-	def find_quote_by_day
-		@quotes=Quote.find(
-end
