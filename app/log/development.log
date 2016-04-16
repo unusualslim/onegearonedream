@@ -3713,3 +3713,52 @@ Processing by HomeController#index as HTML
   [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-15' LIMIT 1  [["day", "2016-04-15"]]
   Rendered home/index.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 70.193.111.142 at 2016-04-16 15:06:15 +0000
+Cannot render console from 70.193.111.142! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1  [["day", "2016-04-16"]]
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 70.193.111.142 at 2016-04-16 15:06:17 +0000
+Cannot render console from 70.193.111.142! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1  [["day", "2016-04-16"]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 173.16.155.199 at 2016-04-16 15:59:07 +0000
+Cannot render console from 173.16.155.199! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1[0m  [["day", "2016-04-16"]]
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2163ms (Views: 2144.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 173.16.155.199 at 2016-04-16 15:59:09 +0000
+Cannot render console from 173.16.155.199! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-04-16' LIMIT 1[0m  [["day", "2016-04-16"]]
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-cc69d0b00bda816b553027adcd0794b2c685c0adffd50d9b792659a345249332.css?body=1" for 173.16.155.199 at 2016-04-16 15:59:10 +0000
+Cannot render console from 173.16.155.199! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 173.16.155.199 at 2016-04-16 15:59:10 +0000
+Cannot render console from 173.16.155.199! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 173.16.155.199 at 2016-04-16 15:59:10 +0000
+Cannot render console from 173.16.155.199! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
