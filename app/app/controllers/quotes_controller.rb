@@ -45,10 +45,6 @@ class QuotesController < ApplicationController
 		redirect_to quotes_path
 	end
 	
-	def find_by_day(time)
-  		@quotes = Quote.find_by day: time
-	end
-	
 	private
 		def quote_params
 			params.require(:quote).permit(:context, :author, :day)
