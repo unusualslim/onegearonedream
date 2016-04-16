@@ -45,10 +45,7 @@ class QuotesController < ApplicationController
 		redirect_to quotes_path
 	end
 	
-	def find_by_day
-		time = Time.new
-  		time = time.strftime("%Y-%m-%d")
-  	
+	def find_by_day(time)
   		@quotes = Quote.find_by day: time
 	end
 	
