@@ -14,7 +14,21 @@ Rails.application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
+
+  #Set action Mailer to user smtp by default
+  config.action_mailer.delivery_method = :sendmail
+
+  #SMTP Server settings
+  config.action_mailer.smtp_settings = {
+	:address =>			'smtp.mail.yahoo.com',
+	:port =>			465,
+	:domain =>			'onegearonedream.com',
+	:user =>			'lancep289',
+	:password =>			'Puregut5race',
+	:authentication =>		'plain',
+	:enable_starttls_auto =>	true	
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log

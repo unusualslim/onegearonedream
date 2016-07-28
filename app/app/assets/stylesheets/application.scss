@@ -18,15 +18,16 @@ html, body {
 }
 
 body {
-    font: 20px "Montserrat", sans-serif;
+    font: 20px "Andale Mono", AndaleMono, monospace;
     line-height: 2.4;
     
 }
 
 .jumbotron {
 	/* background-color: #0000cc;  Dark Blue */
-	color: #99ccff; /* White */
-	background-image: url('/assets/IMG_1409.jpg');
+	color: #000000; /* Black */
+	/* background-image: url('/assets/IMG_1409.jpg');*/
+	opacity: 0.9;
 	padding-right: 360px;
 	padding-top: 144px;	
 }
@@ -35,7 +36,7 @@ body {
     height: 100%;
 }
 h1 {
-	font: 84px "Montserrat", sans-serif;
+	font: 48px "Andale Mono", AndaleMono, monospace;
 }
 h2 {
 	font: 48px "Montserrat", sans-serif;
