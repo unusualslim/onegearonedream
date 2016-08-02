@@ -1,4 +1,5 @@
 class Usermailer < ApplicationMailer
+	include Backburner::Performable
 	default from: 'notifications@onegearonedream.com'
 
 	def welcome_email(user)
