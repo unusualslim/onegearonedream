@@ -14908,3 +14908,1129 @@ ActionController::RoutingError (No route matches [GET] "/images/OGOD_simple.png"
   Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
   Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
   Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.8ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 17:01:10 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 243ms (Views: 224.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/OGOD_simple.png" for 63.142.55.250 at 2016-11-30 17:01:11 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/OGOD_simple.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.2ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.8ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 17:01:17 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/OGOD_simple.png" for 63.142.55.250 at 2016-11-30 17:01:17 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/OGOD_simple.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.7ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 17:03:31 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 240ms (Views: 222.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 63.142.55.250 at 2016-11-30 17:03:31 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 19:38:20 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1412ms (Views: 1394.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-deb358618e628f8a97e8d845638c03a99818df415ab6ee78259be62cf580d6b6.css?body=1" for 63.142.55.250 at 2016-11-30 19:38:21 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 19:38:27 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 19:40:28 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1401ms (Views: 1382.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-9a7c0784a715ec2cd851afccc83ce71a1110a76623d355bbf1093581424e757c.css?body=1" for 63.142.55.250 at 2016-11-30 19:40:30 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 19:42:30 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1420ms (Views: 1402.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-16811281d74babfb494994fcb72ffc04a4a165f39c95fa01a9c42d972cd0d17b.css?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 63.142.55.250 at 2016-11-30 19:42:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 19:47:10 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 243ms (Views: 224.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 19:47:28 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:02:57 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1429ms (Views: 1410.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-fc5af2c9cb697b0bed5667e4b9c7bf6cd9fb5d7b650676952cd5cd87c519af09.css?body=1" for 63.142.55.250 at 2016-11-30 21:02:58 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:03:27 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 63.142.55.250 at 2016-11-30 21:03:28 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.6ms)
+
+
+Started GET "/apple-touch-icon.png" for 63.142.55.250 at 2016-11-30 21:03:28 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.8ms)
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-fc5af2c9cb697b0bed5667e4b9c7bf6cd9fb5d7b650676952cd5cd87c519af09.css?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:45 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:46 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:46 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 174.218.131.178 at 2016-11-30 21:03:46 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 174.218.131.178 at 2016-11-30 21:03:46 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:04:28 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 63.142.55.250 at 2016-11-30 21:04:28 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/apple-touch-icon.png" for 63.142.55.250 at 2016-11-30 21:04:29 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.7ms)
+
+
+Started GET "/" for 70.214.116.180 at 2016-11-30 21:04:47 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-fc5af2c9cb697b0bed5667e4b9c7bf6cd9fb5d7b650676952cd5cd87c519af09.css?body=1" for 70.214.116.180 at 2016-11-30 21:04:47 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:47 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:47 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:47 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 70.214.116.180 at 2016-11-30 21:04:48 +0000
+Cannot render console from 70.214.116.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:04:58 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:22:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 235ms (Views: 217.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:31:50 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:45:19 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:51:06 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 21:51:09 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 21:53:41 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 21:53:44 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:11:50 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-fc5af2c9cb697b0bed5667e4b9c7bf6cd9fb5d7b650676952cd5cd87c519af09.css?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 63.142.55.250 at 2016-11-30 22:18:32 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 63.142.55.250 at 2016-11-30 22:18:33 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:26:22 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-fc5af2c9cb697b0bed5667e4b9c7bf6cd9fb5d7b650676952cd5cd87c519af09.css?body=1" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 174.218.131.178 at 2016-11-30 22:26:40 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:30:18 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:30:21 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:35:31 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `img_tag' for #<#<Class:0x007f79708c26c0>:0x007f7949411da0>):
+    25:     <div class="navbar-header">
+    26: 
+    27:       <a href="#" class=btn btn-info btn-sm" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    28: 	<%= img_tag "OGOD_Simple.png", alt: "One Gear One Dream" %>
+    29:       </a>
+    30: 
+    31: <!--      <button type="button" class="glyphicon glyphicon-menu-hamburged" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  app/views/layouts/application.html.erb:28:in `_app_views_layouts_application_html_erb___3192490559689509977_70079448327580'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:36:11 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:36:54 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:39:38 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1040ms (Views: 1038.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-03d6eba32fe83d1e01d99b8d6f88300a4dc92d489d491f0d49d3ad9466117d8c.css?body=1" for 63.142.55.250 at 2016-11-30 22:39:40 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:40:13 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1074ms (Views: 1073.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-5c8fb4c1b903143d55cdbb814ac9707de2d1e83f56415ac1c32ed5b4ee6b4a01.css?body=1" for 63.142.55.250 at 2016-11-30 22:40:14 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:40:21 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:40:23 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:40:25 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:40:27 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:42:24 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 1053ms (Views: 1052.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-c33bcb3441eefccbee5b16f2902842c5adf78d201ea69aaba88963c42f2077fc.css?body=1" for 63.142.55.250 at 2016-11-30 22:42:26 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:42:33 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:42:41 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:42:49 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:42:56 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:45:23 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 975ms (Views: 974.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-f8acbc58aba6afc72fb1936ea192af358a238cd803c4cb668a98a9f4dc904999.css?body=1" for 63.142.55.250 at 2016-11-30 22:45:24 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:45:36 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 22:45:42 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8acbc58aba6afc72fb1936ea192af358a238cd803c4cb668a98a9f4dc904999.css?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 174.218.131.178 at 2016-11-30 22:45:43 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:46:21 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1072ms (Views: 1070.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-d1e208a53ec6a42e8c8e013bd0f002d978bbb4f9576d7a4417e328f82197901e.css?body=1" for 63.142.55.250 at 2016-11-30 22:46:22 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:46:25 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:46:27 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 22:49:50 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.2ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:49:53 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 22:50:05 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:05 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-d1e208a53ec6a42e8c8e013bd0f002d978bbb4f9576d7a4417e328f82197901e.css?body=1" for 174.218.131.178 at 2016-11-30 22:50:05 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:05 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:05 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:05 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:06 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:06 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:06 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:06 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:06 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 174.218.131.178 at 2016-11-30 22:50:06 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-d1e208a53ec6a42e8c8e013bd0f002d978bbb4f9576d7a4417e328f82197901e.css?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 174.218.131.178 at 2016-11-30 22:50:12 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes" for 174.218.131.178 at 2016-11-30 22:50:15 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 22:50:17 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 22:53:11 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 174.218.131.178 at 2016-11-30 22:53:18 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-d1e208a53ec6a42e8c8e013bd0f002d978bbb4f9576d7a4417e328f82197901e.css?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/OGOD_Simple-77283c696f43fa8716ccd6744faed6024f50e60e9fd63d2ef09de5d5fd389500.png" for 174.218.131.178 at 2016-11-30 22:53:19 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes" for 174.218.131.178 at 2016-11-30 22:53:25 +0000
+Cannot render console from 174.218.131.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.1ms)
