@@ -14564,3 +14564,347 @@ ActionView::Template::Error (undefined method `context' for nil:NilClass):
   Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
   Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 14:02:51 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.2ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `context' for nil:NilClass):
+    1: 
+    2: 	<main class="container-fluid jumbotron text-left fill">
+    3: 		<h1>
+    4: 			<strong><%= @quote.context %></strong>
+    5: 		</h1>
+    6: 		<br />
+    7: 		<h2>
+  app/views/home/index.html.erb:4:in `_app_views_home_index_html_erb__4507503335205747292_70075922723200'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.3ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 14:03:07 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 350ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (Invalid CSS after "	opacity": expected ";", was ": 0.9;"):
+    2: <html>
+    3: <head>
+    4:   <title>One Gear One Dream</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:31
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4184145510989058656_70075922611840'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 16:03:15 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 166ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (Invalid CSS after "	opacity": expected ";", was ": 0.9;"):
+    2: <html>
+    3: <head>
+    4:   <title>One Gear One Dream</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:31
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___942763623070060984_70138501758600'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.5ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 16:04:58 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by QuotesController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT `quotes`.* FROM `quotes`
+  Rendered quotes/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 1703ms (Views: 1693.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-05354d0def13429a2cb2cc70aa0839628e075899a2cbc83ac9ed5a3993038327.css?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quotes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 63.142.55.250 at 2016-11-30 16:05:00 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/quotes/2/edit" for 63.142.55.250 at 2016-11-30 16:05:10 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Filter chain halted as #<Proc:0x007fe0fcbf5650@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/2/edit" for 63.142.55.250 at 2016-11-30 16:05:19 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mQuote Load (0.3ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 2 LIMIT 1[0m
+  Rendered quotes/_form.html.erb (19.1ms)
+  Rendered quotes/edit.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 49ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/quotes/2" for 63.142.55.250 at 2016-11-30 16:05:36 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a8zdwoGI2jW4jmYUkvQJ0hshu7si5zTKVbmqsqMURneKgOoZ7Q3JyvuyzHONcVNoEgxYNdBTNomAU6S3p1/EJA==", "quote"=>{"context"=>"There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.", "author"=>"Nelson Mandela", "day(1i)"=>"2016", "day(2i)"=>"11", "day(3i)"=>"30"}, "commit"=>"Update Quote", "id"=>"2"}
+Filter chain halted as #<Proc:0x007fe0fcbf5650@/home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_controller/metal/http_authentication.rb:69> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started PATCH "/quotes/2" for 63.142.55.250 at 2016-11-30 16:05:37 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a8zdwoGI2jW4jmYUkvQJ0hshu7si5zTKVbmqsqMURneKgOoZ7Q3JyvuyzHONcVNoEgxYNdBTNomAU6S3p1/EJA==", "quote"=>{"context"=>"There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.", "author"=>"Nelson Mandela", "day(1i)"=>"2016", "day(2i)"=>"11", "day(3i)"=>"30"}, "commit"=>"Update Quote", "id"=>"2"}
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  UPDATE `quotes` SET `day` = '2016-11-30', `updated_at` = '2016-11-30 16:05:37' WHERE `quotes`.`id` = 2
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://ec2-54-187-95-169.us-west-2.compute.amazonaws.com:3000/quotes/2
+Completed 302 Found in 9ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/quotes/2" for 63.142.55.250 at 2016-11-30 16:05:37 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mQuote Load (0.3ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`id` = 2 LIMIT 1
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 63.142.55.250 at 2016-11-30 16:05:39 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1mSELECT `quotes`.* FROM `quotes`[0m
+  Rendered quotes/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 16:05:44 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.3ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 16:17:42 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1423ms (Views: 1405.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-f7e78cd7790050c177bbe45f2c33d51967dadf305ca2c1beb97e9bf85844b5c8.css?body=1" for 63.142.55.250 at 2016-11-30 16:17:44 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 16:27:56 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 241ms (Views: 223.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/OGOD_simple.png" for 63.142.55.250 at 2016-11-30 16:27:56 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/OGOD_simple.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.3ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 16:31:21 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mQuote Load (0.1ms)[0m  SELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 236ms (Views: 217.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/OGOD_simple.png" for 63.142.55.250 at 2016-11-30 16:31:22 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/OGOD_simple.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.9ms)
+
+
+Started GET "/" for 63.142.55.250 at 2016-11-30 16:31:33 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mQuote Load (0.1ms)[0m  [1mSELECT  `quotes`.* FROM `quotes` WHERE `quotes`.`day` = '2016-11-30' LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/OGOD_simple.png" for 63.142.55.250 at 2016-11-30 16:31:33 +0000
+Cannot render console from 63.142.55.250! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/OGOD_simple.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/ubuntu/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.8ms)

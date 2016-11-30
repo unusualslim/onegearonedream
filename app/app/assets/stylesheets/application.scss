@@ -22,10 +22,13 @@ body {
     line-height: 2.4;
     
 }
+#user_nav {
+	background-color: #000000;
 
+}
 .jumbotron {
-	/* background-color: #0000cc;  Dark Blue */
-	color: #000000; /* Black */
+	background-color: #ACA7A7;
+	color: #F2FFF2; /* WHITE/GREEN  */
 	/* background-image: url('/assets/IMG_1409.jpg');*/
 	opacity: 0.9;
 	padding-right: 360px;
@@ -36,8 +39,13 @@ body {
     height: 100%;
 }
 h1 {
-	font: 48px "Andale Mono", AndaleMono, monospace;
+	font-family: filson-soft, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+
 }
 h2 {
-	font: 48px "Montserrat", sans-serif;
+	font-family: katarine-web, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
